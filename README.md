@@ -2,10 +2,10 @@
 An Application to transfer data securely. 
 
 # Importance of the Project
-I have created this project that allow users to send data files using a secure communication channel. I have implemented two types of encryption techniques on the communication channel. A weak and a strong encryption. For the weak encryption i am converting the file data into bytes. After converting into bytes then I am using a very basic encryption
-technique in which I am using the enumerate function which basically changes the bytes collection into an enumerate object. It gives two outputs (key and value). Then I am using XOR operator for encrypting my byte data. For strong encryption i am using
+I have created this project that allows users to send data files using a secure communication channel. I have implemented two types of encryption techniques on the communication channel. Weak and strong encryption. For the weak encryption, I am converting the file data into bytes. After converting into bytes then I am using a very basic encryption
+technique in which I am using the enumerate function which basically changes the bytes collection into an enumerate object. It gives two outputs (key and value). Then I am using the XOR operator to encrypt my byte data. For strong encryption, I am using
 the FERNET encryption technique which uses 128-bit AES encryption.
-With this application you can transfer files securely over the internet. For transferring data both sender and receiver needs to run the application.
+With this application, you can transfer files securely over the internet. For transferring data both the sender and receiver need to run the application.
 
 # How to run the project
 I have created the bash files for both the server and client. They are in the "Application" folder. 
