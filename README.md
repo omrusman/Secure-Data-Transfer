@@ -8,7 +8,7 @@ the FERNET encryption technique which uses 128-bit AES encryption.
 With this application you can transfer files securely over the internet. For transferring data both sender and receiver needs to run the application.
 
 # How to run the project
-#I have created the bash files for both the server and client. They are in the "Application" folder. 
+I have created the bash files for both the server and client. They are in the "Application" folder. 
 1. Run both files on same PC or remotely and follow the instructions.
 2. The server will show you the IP address and the secret key. 
 3. You need to copy this secret key and send to the client. 
